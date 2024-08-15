@@ -1,10 +1,10 @@
 import mysql from 'mysql2/promise';
 const db = mysql.createPool({
-  host: 'viaduct.proxy.rlwy.net',
+  host: 'hostname',
   user: 'root',
-  password: 'DEQkJsYHMmpiljxqnwTQPQNdJtZIFOvu',
-  database: 'railway',
+  password: 'sifre',
+  database: 'veritabanı',
   port: 20193,
 });
 
-export default db; 
+export default db;
