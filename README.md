@@ -16,8 +16,8 @@ Bu sistem MySQL ile çalışmaktadır, Vercel üzerinden MySQL aktif etmek için
 
   `id (integer), user_id (integer), session_id(text),	device_type(text),	browser_info(text),	ip_address(text),	login_time(text),	device_model(text),	device_brand(text)`
 
-5. Tabloları ayarladıktan sonra sitede ki MySQL connect butonuna basın ve **Public Network** kısmına geçin.
-6. **Connection URL** verisini kopyalayın ve src/lib/db.js dosyasına düzgünce yerleştirin.
+5. Tabloları ayarladıktan sonra sitede ki MySQL connect butonuna basın ve `Public Network` kısmına geçin.
+6. `Connection URL` verisini kopyalayın ve `src/lib/db.js` dosyasına düzgünce yerleştirin.
 7. Bu kodu terminale yapıştırın: `git clone https://github.com/TMBilalTM/hesap-sistemi.git`.
 8. Komut satırından proje dizinine gidin: `cd hesap-sistemi`.
 9. Gerekli bağımlılıkları yüklemek için `npm install` komutunu çalıştırın.
