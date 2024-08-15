@@ -13,6 +13,7 @@ Bu sistem MySQL ile çalışmaktadır, Vercel üzerinden MySQL aktif etmek için
 2. Veritabanı açıldığında 2 tablo oluşturucaksınız bunlar:  `sessions, users`
 3. Tabloları açtıktan sonra users tablosuna girip şu veri sütunlarını ekleyin  `id (integer), email (text), password (text)`
 4. Users tablosunu tamamladıktan sonra sessions tablosuna girip şu veri sütunlarını ekleyin;
+
   `id (integer), user_id (integer), session_id(text),	device_type(text),	browser_info(text),	ip_address(text),	login_time(text),	device_model(text),	device_brand(text)`
 5. Bu kodu terminale yapıştırın: `git clone https://github.com/TMBilalTM/hesap-sistemi.git`.
 6. Komut satırından proje dizinine gidin: `cd hesap-sistemi`.
