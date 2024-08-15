@@ -15,12 +15,14 @@ Bu sistem MySQL ile çalışmaktadır, Vercel üzerinden MySQL aktif etmek için
 4. Users tablosunu tamamladıktan sonra sessions tablosuna girip şu veri sütunlarını ekleyin;
 
   `id (integer), user_id (integer), session_id(text),	device_type(text),	browser_info(text),	ip_address(text),	login_time(text),	device_model(text),	device_brand(text)`
-  
-5. Bu kodu terminale yapıştırın: `git clone https://github.com/TMBilalTM/hesap-sistemi.git`.
-6. Komut satırından proje dizinine gidin: `cd hesap-sistemi`.
-7. Gerekli bağımlılıkları yüklemek için `npm install` komutunu çalıştırın.
-8. Geliştirme sunucusunu `npm run dev` ile başlatın.
-9. Web tarayıcınızı açın ve `http://localhost:3000` adresine giderek oyunu oynayın.
+
+5. Tabloları ayarladıktan sonra sitede ki MySQL connect butonuna basın ve **Public Network** kısmına geçin.
+6. **Connection URL** verisini kopyalayın ve src/lib/db.js dosyasına düzgünce yerleştirin.
+7. Bu kodu terminale yapıştırın: `git clone https://github.com/TMBilalTM/hesap-sistemi.git`.
+8. Komut satırından proje dizinine gidin: `cd hesap-sistemi`.
+9. Gerekli bağımlılıkları yüklemek için `npm install` komutunu çalıştırın.
+10. Geliştirme sunucusunu `npm run dev` ile başlatın.
+11. Web tarayıcınızı açın ve `http://localhost:3000` adresine giderek oyunu oynayın.
 
 ### Katkıda Bulunma
 
