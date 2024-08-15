@@ -15,6 +15,7 @@ Bu sistem MySQL ile çalışmaktadır, Vercel üzerinden MySQL aktif etmek için
 4. Users tablosunu tamamladıktan sonra sessions tablosuna girip şu veri sütunlarını ekleyin;
 
   `id (integer), user_id (integer), session_id(text),	device_type(text),	browser_info(text),	ip_address(text),	login_time(text),	device_model(text),	device_brand(text)`
+  
 5. Bu kodu terminale yapıştırın: `git clone https://github.com/TMBilalTM/hesap-sistemi.git`.
 6. Komut satırından proje dizinine gidin: `cd hesap-sistemi`.
 7. Gerekli bağımlılıkları yüklemek için `npm install` komutunu çalıştırın.
